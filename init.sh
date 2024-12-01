@@ -3,7 +3,8 @@
 num=$1
 
 if [ "$#" -ne 1 ]; then
-    echo "引数がたりません"
+    echo "ERROR: arg is missing."
+    echo "Please enter the question number."
     exit 1
 fi
 
